@@ -82,10 +82,6 @@ class FiltedDataListController: UITableViewController {
                 user.abstraction = tempArr[2]
                 self.performSegueWithIdentifier("toReveal", sender: self)
             }
-            
-            
-        
-        
         
     }
     

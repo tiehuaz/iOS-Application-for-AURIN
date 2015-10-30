@@ -18,9 +18,6 @@ class MenuController: UITableViewController {
         super.viewDidLoad()
 
         viewTable.separatorStyle = .None
-        
-        
-        
 
     }
     

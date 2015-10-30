@@ -1,6 +1,6 @@
 //
 //  MapViewController.swift
-//  
+//  AurinProject
 //
 //  Created by tiehuaz on 8/29/15.
 //  Copyright (c) 2015 AppCoda. All rights reserved.
@@ -118,16 +118,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
             
             self.mapView.addAnnotation(objectAnnotation)
         }
-//        var polygon = MKPolygon(coordinates: &p, count: p.count)
-//        self.mapView.addOverlay(polygon)
-        
-        
-        //        }
-        
-        //        self.isDrawingPolygon = false
-        //        self.drawPolygonButton.setTitle("Draw", forState: .Normal)
-        //        self.canvasView.image = nil
-        //        self.canvasView.removeFromSuperview()
+
     }
     func openMapForPlace() {
         let span = MKCoordinateSpanMake(1, 1)

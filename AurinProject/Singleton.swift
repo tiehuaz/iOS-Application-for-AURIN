@@ -1,6 +1,6 @@
 //
 //  Singleton.swift
-//  SidebarMenu
+//  AurinProject
 //
 //  Created by tiehuaz on 8/29/15.
 //  Copyright (c) 2015 AppCoda. All rights reserved.

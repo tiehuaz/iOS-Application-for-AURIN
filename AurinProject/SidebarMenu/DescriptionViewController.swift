@@ -1,5 +1,5 @@
 //
-//  DataCollection.swift
+//  DescriptionViewController.swift
 //  AurinProject
 //
 //  Created by tiehuaz on 10/6/15.
