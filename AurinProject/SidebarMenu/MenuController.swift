@@ -8,6 +8,9 @@
 
 import UIKit
 
+/*  This is the menu controller to show all options of visualizaiton
+*/
+
 class MenuController: UITableViewController {
 
     @IBOutlet var viewTable: UITableView!

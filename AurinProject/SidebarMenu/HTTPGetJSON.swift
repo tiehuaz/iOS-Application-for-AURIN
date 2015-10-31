@@ -1,5 +1,7 @@
 import Foundation
 
+/*these functions are used ot send HTTP request and parse returned JSON data*/
+
 func JSONParseDict(jsonString:String) -> Dictionary<String, AnyObject> {
     
     if let data: NSData = jsonString.dataUsingEncoding(
@@ -56,17 +58,3 @@ func HTTPGetJSON(
         }
 }
 
-//HTTPGetJSON("http://itunes.apple.com/us/rss/topsongs/genre=6/json") {
-//    (data: Dictionary<String, AnyObject>, error: String?) -> Void in
-//    if error != nil {
-//        print(error)
-//    } else {
-//        if let feed = data["feed"] as? NSDictionary ,let entries = feed["entry"] as? NSArray{
-//                for elem: AnyObject in entries{
-//                    if let dict = elem as? NSDictionary ,let titleDict = dict["title"] as? NSDictionary , let songName = titleDict["label"] as? String{
-//                                print(songName)
-//                    }
-//            }
-//        }
-//    }
-//}

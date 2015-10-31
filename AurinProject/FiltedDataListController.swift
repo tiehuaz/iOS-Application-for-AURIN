@@ -9,6 +9,11 @@
 import UIKit
 import MapKit
 
+/** This class controlles the data listing interface showing the name of all datasets, it is also resposible to generate WFS query
+*   according to user's selection for dataset, once user select one dataset, the dialConnection() function will be called and send
+*   WFS query through HTTP request to GeoServer. After that, it will decode returned JSON data and store it into Singletion.swift.
+*/
+
 class FiltedDataListController: UITableViewController {
     
 

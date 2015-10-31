@@ -9,6 +9,13 @@
 import UIKit
 import SWXMLHash
 
+/*  This class controls the first interface of this app, which allows user to selection conditions
+*  for cities, organisations, data types, and aggregation level.
+*  this controller will first send GetCapibilities service in WFS to GeoServer to retrieve all simple information
+*  for each dataset, the information is in XML format and will be parsed in this controller as well.
+*  the parsed information will be stored into Singleton in order to dynamicallly generate GetFeature WFS query later
+*/
+
 class FilterViewController: UIViewController,UIPickerViewDataSource, UIPickerViewDelegate{
     
     var URL: String?

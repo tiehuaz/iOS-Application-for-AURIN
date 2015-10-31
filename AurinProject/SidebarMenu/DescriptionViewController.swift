@@ -8,6 +8,8 @@
 
 import UIKit
 
+/*the last visualization to show description for selected dataset*/
+
 class DescriptionViewController: UIViewController {
 
     

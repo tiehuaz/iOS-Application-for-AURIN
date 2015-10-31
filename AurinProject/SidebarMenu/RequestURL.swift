@@ -7,6 +7,8 @@
 //
 import Foundation
 
+/*these functions are used to parse XML format information into normal variables*/
+
 func HTTPsendRequests(request: NSMutableURLRequest,callback: (String, String?) -> Void) {
     
     let task = NSURLSession.sharedSession().dataTaskWithRequest(request,completionHandler :

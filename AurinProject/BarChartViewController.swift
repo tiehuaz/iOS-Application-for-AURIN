@@ -9,6 +9,12 @@
 import UIKit
 import JBChart
 
+
+/** This controller is resposible to draw bar chart, the data used in bars is previously stored in Singleton.swift
+*   The title means what data is visualzied in here, each bar is clickable, which will show the details of that
+*   bar at the footer label then.
+*/
+
 class BarChartViewController: UIViewController , JBBarChartViewDelegate, JBBarChartViewDataSource{
     @IBOutlet weak var menuButton:UIBarButtonItem!
     

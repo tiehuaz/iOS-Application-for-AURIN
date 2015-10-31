@@ -9,6 +9,12 @@ import UIKit
 import JBChart
 
 
+
+/** This controller is resposible to draw line chart, the data used in lines is previously stored in Singleton.swift
+*   The title means what data is visualzied in here, each part of line is clickable, which will show the details of that
+*   part at the footer label then.
+*/
+
 class LineChartViewController: UIViewController,JBLineChartViewDataSource,JBLineChartViewDelegate{
     
     @IBOutlet weak var menuButton: UIBarButtonItem!

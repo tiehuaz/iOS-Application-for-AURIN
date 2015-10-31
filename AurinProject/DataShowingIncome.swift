@@ -8,6 +8,8 @@
 
 import UIKit
 
+/* an interfance to illustrate specification in that data */
+
 class DataShowingIncome: UIViewController {
 
     @IBOutlet weak var id: UILabel!

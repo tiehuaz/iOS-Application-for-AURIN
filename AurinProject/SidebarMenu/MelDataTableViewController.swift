@@ -8,6 +8,9 @@
 
 import UIKit
 
+/* First Visualizaiton interface based on retured data, listing all data in melbourne area
+*/
+
 class MelDataTableViewController: UITableViewController {
     @IBOutlet weak var menuButton:UIBarButtonItem!
 

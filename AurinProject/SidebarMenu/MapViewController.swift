@@ -9,6 +9,10 @@
 import UIKit
 import MapKit
 
+/* Second Visualizaiton interface based on retured data, drawing polygon for each data based on geospatial information
+*  also put red pin in each polygon to show details for this polygon.
+*/
+
 class MapViewController: UIViewController, MKMapViewDelegate {
     @IBOutlet weak var menuButton:UIBarButtonItem!
     @IBOutlet weak var mapView: MKMapView!

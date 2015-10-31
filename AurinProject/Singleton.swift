@@ -6,6 +6,11 @@
 //  Copyright (c) 2015 AppCoda. All rights reserved.
 //
 import MapKit
+
+/*  This class is mainly used to store all global variables, such as retured data from a dataset, geospatial
+    information, etc.
+*/
+
 class Singleton {
     class var sharedInstance: Singleton {
         struct Static {

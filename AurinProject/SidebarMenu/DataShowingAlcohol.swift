@@ -8,6 +8,8 @@
 
 import UIKit
 
+/* an interfance to illustrate specification in that data */
+
 class DataShowingAlcohol: UIViewController {
 
     @IBOutlet weak var code: UILabel!
